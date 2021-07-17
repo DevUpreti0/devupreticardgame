@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mix-or-Match : By-Dev Upreti</title>
+	<link href="style.css" rel="stylesheet" >
+  <script src="script.js" async></script>
+	<link rel="icon" href="Screenshot 2021-04-17 104437.png">
+</head>
+<body>
+	<h1 class="page-title">Mix-Or-Match</h1>
+	<div class="overlay-text visible">Click To Start</div>
+	<div id="game-over-text">GAME OVER
+	<span class="overlay-text-small">Click To Restart</span>
+	</div>
+	<div id="victory-text">VICTORY
+	<span class="overlay-text-small">Click To Restart</span>
+</div>
+
+<div class="game-container">
+	<div class="game-info-container">
+		<div class="game-info">
+			Time <span id="time-remaining">100</span>
+		</div>
+		<div class="game-info">
+			Flips <span id="flips">0</span>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <!-- CODE BY DUKU OFFICIAL -->
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Bat.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Bat.png">
+      </div>
+    </div>
+    <!-- CODE BY DUKU OFFICIAL -->
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Bones.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Bones.png">
+      </div>
+    </div>
+    <!-- CODE BY DUKU OFFICIAL -->
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Cauldron.png">
+      </div>
+    </div>
+    <!-- CODE BY DUKU OFFICIAL -->
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Cauldron.png">
+      </div>
+    </div>
+    <!-- CODE BY DUKU OFFICIAL -->
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Eye.png">
+      </div>
+    </div>
+    <!-- CODE BY DUKU OFFICIAL -->
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Eye.png">
+      </div>
+      <!-- CODE BY DUKU OFFICIAL -->
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <!-- CODE BY DUKU OFFICIAL -->
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Skull.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <!-- CODE BY DUKU OFFICIAL -->
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Skull.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <!-- CODE BY DUKU OFFICIAL -->
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Pumpkin.png">
+      </div>
+    </div>
+    <!-- CODE BY DUKU OFFICIAL -->
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Pumpkin.png">
+      </div>
+    </div>
+    <!-- CODE BY DUKU OFFICIAL -->
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Ghost.png">
+      </div>
+    </div>
+    <!-- CODE BY DUKU OFFICIAL -->
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <!-- CODE BY DUKU OFFICIAL -->
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Ghost.png">
+      </div>
+    </div>
+    <!-- CODE BY DUKU OFFICIAL -->
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <!-- CODE BY DUKU OFFICIAL -->
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Dracula.png">
+      </div>
+    </div>
+    <!-- CODE BY DUKU OFFICIAL -->
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+        <img class="spider" src="Assets/Images/Spider.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+        <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+        <img class="card-value" src="Assets/Images/Dracula.png">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CODE BY DUKU OFFICIAL -->
+</body>
+</html>
+
+	</div>
+</div>
+
+</body>
+</html>
